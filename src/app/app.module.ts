@@ -8,6 +8,8 @@ import { EditarcomentarioComponent } from './components/editarcomentario/editarc
 import { VercomentarioComponent } from './components/vercomentario/vercomentario.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ListarComentariosComponent } from './components/listar-comentarios/listar-comentarios.component';
+import { LoginComponent } from './components/login/login.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { ListarComentariosComponent } from './components/listar-comentarios/list
     EditarcomentarioComponent,
     VercomentarioComponent,
     NavbarComponent,
-    ListarComentariosComponent
+    ListarComentariosComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

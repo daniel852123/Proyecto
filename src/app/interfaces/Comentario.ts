@@ -1,6 +1,5 @@
 export interface Comentario{
-    id?:number;
-    titulo:string;
-    autor:string;
-    fechaCreacion:Date;
+    nombres:string;
+    apellidos:string;
+    entidad:string;
 }

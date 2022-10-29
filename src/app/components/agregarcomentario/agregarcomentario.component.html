@@ -1,24 +1,21 @@
-<form class="row g-3">
+<form class="row g-3" [formGroup]="agregarComentarios" (ngSubmit)="agregar ()">
   <div class="col-md-6">
     <label for="text" class="form-label">Nombres</label>
-    <input type="text" class="form-control" id="text">
+    <input formControlName="nombres" class="form-control" id="text">
   </div>
   <div class="col-md-6">
     <label for="text" class="form-label">Apellidos</label>
-    <input type="text" class="form-control" id="text">
+    <input formControlName="apellidos" class="form-control" id="text">
   </div>
   <div class="col-12">
     <label for="text" class="form-label">Entidad</label>
-    <input type="text" class="form-control" id="text" placeholder="Apple">
+    <input formControlName="entidad" class="form-control" id="text" placeholder="Apple">
   </div>
   <div class="col-12">
     <label for="text" class="form-label">fechaCreacion</label>
-    <input type="text" class="form-control" id="text" placeholder="mm/dd/aaaa">
+    <input formControlName="fechaCreacion" class="form-control" id="text" placeholder="mm/dd/aaaa">
   </div>
-  <div class="col-12">
-    <button class="btn btn-primary" btn-color: #{$color}, type="submit">Agregar</button>
+  <div>
+  <button type="submit" class="btn btn-primary">agregar</button>
   </div>
-  <div class="col-12">
-    <button class="btn btn-light"  routerLink="/" type="submit">Anterior</button>
-  </div>
-</form>
+  

@@ -13,34 +13,34 @@ export class ListarComentariosComponent implements OnInit {
 
 listComentarios: Comentario [] =[
   {
-    titulo: 'Cibersecurity',
-    autor: 'Jorge Collazos',
-    fechaCreacion: new Date()
+    entidad: 'Cibersecurity',
+    nombres: 'Jorge ',
+    apellidos: 'Collazos'
   },
   {
-    titulo: 'Company S.A',
-    autor: 'Robin Perez',
-    fechaCreacion: new Date()
+    entidad: 'Company S.A',
+    nombres: 'Robin ',
+    apellidos: 'Perez'
   },
   {
-    titulo: 'tiwch',
-    autor: 'Alejandro Riaño',
-    fechaCreacion: new Date() 
+    entidad: 'tiwch',
+    nombres: 'Alejandro ',
+    apellidos: 'Riaño' 
    },
    {
-    titulo: 'Empresa Margaritas',
-    autor: 'Lorenzo Pizzarro',
-    fechaCreacion: new Date()
+    entidad: 'Empresa Margaritas',
+    nombres: 'Lorenzo ',
+    apellidos: 'Pizarro'
    },
    {
-    titulo: 'Intel',
-    autor: 'John Ortega',
-    fechaCreacion: new Date("07/10/2015")
+    entidad: 'Intel',
+    nombres: 'John ',
+    apellidos: 'Ortega'
    },
    {
-    titulo: 'Nvidia',
-    autor: 'Arturo Revelo',
-    fechaCreacion: new Date("08/25/2000")
+    entidad: 'Nvidia',
+    nombres: 'Arturo ',
+    apellidos: 'Revelo'
    }
 ]
   constructor() { }
